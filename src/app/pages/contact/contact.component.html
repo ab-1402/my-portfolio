@@ -1,0 +1,36 @@
+<section id="contact" class="contact fade-in">
+  <h2>Contact Me</h2>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name</label>
+    <input id="name" formControlName="name" type="text" />
+    <div class="error" *ngIf="submitted && contactForm.controls.name.invalid">
+      Name is required.
+    </div>
+
+    <label for="email">Email</label>
+    <input id="email" formControlName="email" type="email" />
+    <div class="error" *ngIf="submitted && contactForm.controls.email.invalid">
+      Valid email is required.
+    </div>
+
+    <label for="message">Message</label>
+    <textarea id="message" formControlName="message" rows="5"></textarea>
+    <div class="error" *ngIf="submitted && contactForm.controls.message.invalid">
+      Message is required.
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="social-links">
+    <a href="https://github.com/username" target="_blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/username" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:your.email@example.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</section>

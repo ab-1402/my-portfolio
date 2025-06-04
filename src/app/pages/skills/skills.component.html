@@ -1,0 +1,9 @@
+<section id="skills" class="skills fade-in">
+  <h2>My Skills</h2>
+  <div class="skill-list">
+    <div class="skill-card" *ngFor="let skill of skills">
+      <i [class]="skill.icon"></i>
+      <span>{{ skill.name }}</span>
+    </div>
+  </div>
+</section>
