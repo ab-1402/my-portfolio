@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
@@ -7,5 +6,13 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
- 
+  menuOpen = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  closeMenu() {
+    this.menuOpen = false;
+  }
 }

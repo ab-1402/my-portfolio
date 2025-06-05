@@ -1,10 +1,15 @@
 <nav class="navbar">
   <div class="logo">MyPortfolio</div>
-  <ul>
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/about">About</a></li>
-    <li><a routerLink="/skills">Skills</a></li>
-    <li><a routerLink="/projects">Projects</a></li>
-    <li><a routerLink="/contact">Contact</a></li>
+
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+
+  <ul [class.active]="menuOpen">
+    <li><a routerLink="/" (click)="closeMenu()">Home</a></li>
+    <li><a routerLink="/about" (click)="closeMenu()">About</a></li>
+    <li><a routerLink="/skills" (click)="closeMenu()">Skills</a></li>
+    <li><a routerLink="/projects" (click)="closeMenu()">Projects</a></li>
+    <li><a routerLink="/contact" (click)="closeMenu()">Contact</a></li>
   </ul>
 </nav>
