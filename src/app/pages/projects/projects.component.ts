@@ -17,18 +17,18 @@ export class ProjectsComponent {
     {
       title: 'Project One',
       description: 'Angular based portfolio website with smooth scroll and animations.',
-      image: 'assets/project1.png',
+      image: 'assets/portfolio.png',
       link: 'https://github.com/username/project-one'
     },
     {
       title: 'Project Two',
-      description: 'Node.js API for handling user data and authentication.',
-      image: 'assets/project2.png',
+      description: 'Banking Chatbot using react , flask and firebase',
+      image: 'assets/banking.png',
       link: 'https://github.com/username/project-two'
     },
     {
       title: 'Project Three',
-      description: 'Real-time chat app using Socket.io and Angular.',
+      description: 'job recrutment platform using agnular',
       image: 'assets/project3.png',
       link: 'https://github.com/username/project-three'
     },

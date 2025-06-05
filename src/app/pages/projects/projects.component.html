@@ -1,7 +1,7 @@
 <section id="projects" class="projects fade-in">
   <h2>My Projects</h2>
   <div class="project-grid">
-    <div class="project-card" *ngFor="let project of projects" (click)="openLink(project.link)">
+    <div class="project-card" *ngFor="let project of projects" >
       <img [src]="project.image" alt="{{ project.title }}" />
       <div class="project-info">
         <h3>{{ project.title }}</h3>

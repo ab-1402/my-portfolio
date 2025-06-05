@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(90deg, #00092d, #250d7c,purple,skyblue);
   color: #eee;
   scroll-behavior: smooth;
 }

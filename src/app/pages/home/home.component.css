@@ -1,6 +1,6 @@
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  /* background: linear-gradient(135deg, #667eea, #764ba2); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,17 +23,17 @@
 .hero-content button {
   padding: 0.75rem 2.5rem;
   border: none;
-  background-color: #ffd700;
+  background-color: #391595;
   color: #121212;
   font-weight: 700;
   font-size: 1.1rem;
-  border-radius: 30px;
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .hero-content button:hover {
-  background-color: #e6c200;
+  background-color: #555bb6;
 }
 
 .fade-in {

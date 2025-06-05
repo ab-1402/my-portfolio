@@ -7,9 +7,5 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  constructor(private viewportScroller: ViewportScroller) {}
-
-  scrollTo(anchor: string): void {
-    this.viewportScroller.scrollToAnchor(anchor);
-  }
+ 
 }
