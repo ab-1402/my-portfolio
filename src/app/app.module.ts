@@ -12,6 +12,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

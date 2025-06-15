@@ -18,19 +18,19 @@ export class ProjectsComponent {
       title: 'Project One',
       description: 'Angular based portfolio website with smooth scroll and animations.',
       image: 'assets/portfolio.png',
-      link: 'https://github.com/username/project-one'
+      link: 'https://github.com/ab-1402/my-portfolio.git'
     },
     {
-      title: 'Project Two',
+      title: 'Project Two(Hackathon Project)',
       description: 'Banking Chatbot using react , flask and firebase',
       image: 'assets/banking.png',
       link: 'https://github.com/username/project-two'
     },
     {
       title: 'Project Three',
-      description: 'job recrutment platform using agnular',
-      image: 'assets/project3.png',
-      link: 'https://github.com/username/project-three'
+      description: 'Expense Tracker Web App',
+      image: 'assets/expense_tracker.png',
+      link: 'https://github.com/ab-1402/Personalized-finance-manager.git'
     },
   ];
   openLink(url: string): void {

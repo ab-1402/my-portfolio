@@ -1,0 +1,60 @@
+.resume-section {
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 15px black;
+}
+.resume-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  padding: 2rem;
+}
+
+
+.resume-section h2 {
+  font-size: 2.5rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.resume-description {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  box-shadow: 0 4px 14px rgba(118, 75, 162, 0.4);
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(to right, #5a67d8, #6b46c1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(118, 75, 162, 0.6);
+}
