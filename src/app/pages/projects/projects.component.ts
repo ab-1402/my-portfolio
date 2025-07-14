@@ -32,6 +32,12 @@ export class ProjectsComponent {
       image: 'assets/expense_tracker.png',
       link: 'https://github.com/ab-1402/Personalized-finance-manager.git'
     },
+    {
+      title:'Project Four',
+      description:'Supplier Compliance Dashboard with ai insights',
+      image:'project4.png',
+      link:'https://github.com/ab-1402/Supplier-Compliance-Insights-Dashboard-with-ai'
+    }
   ];
   openLink(url: string): void {
   window.open(url, '_blank');
