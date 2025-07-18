@@ -35,7 +35,7 @@ export class ProjectsComponent {
     {
       title:'Project Four',
       description:'Supplier Compliance Dashboard with ai insights',
-      image:'project4.png',
+      image: 'project4.png',
       link:'https://github.com/ab-1402/Supplier-Compliance-Insights-Dashboard-with-ai'
     }
   ];
